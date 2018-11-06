@@ -1,0 +1,46 @@
+{
+    "app-id": "com.endlessm.HackComponents",
+    "add-extensions": {
+        "com.endlessm.Clippy.Extension": {
+            "version": "@BRANCH@",
+            "directory": "clippy",
+            "no-autodownload": false,
+            "autodelete": true
+        },
+        "com.endlessm.HackAvatarFaces.Extension": {
+            "version": "@BRANCH@",
+            "directory": "hack-avatar-faces",
+            "no-autodownload": false,
+            "autodelete": true
+        }
+    },
+    "branch": "@BRANCH@",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "18.08",
+    "sdk": "org.freedesktop.Sdk",
+    "modules": [
+        {
+            "name": "hack-components",
+            "buildsystem": "simple",
+            "sources": [
+                {
+                    "type": "git",
+                    "path": ".",
+                    "branch": "@GIT_CLONE_BRANCH@"
+                },
+                {
+                    "type": "file",
+                    "dest-filename": "subst",
+                    "path": "subst-script"
+                }
+            ],
+            "build-commands": [
+                "mkdir -p /app/clippy",
+                "mkdir -p /app/hack-avatar-faces",
+                "mkdir -p /app/share/flatpak-overrides",
+                "chmod +x ./subst",
+                "BRANCH=@BRANCH@ ./subst flatpak-overrides.in /app/share/flatpak-overrides/global"
+            ]
+        }
+    ]
+}

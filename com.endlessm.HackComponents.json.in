@@ -38,6 +38,7 @@
                 "mkdir -p /app/clippy",
                 "mkdir -p /app/hack-avatar-faces",
                 "mkdir -p /app/share/flatpak-overrides",
+                "install -D -m644 -t /app/share/hack-components hack-data.ini",
                 "chmod +x ./subst",
                 "BRANCH=@BRANCH@ ./subst flatpak-overrides.in /app/share/flatpak-overrides/global"
             ]

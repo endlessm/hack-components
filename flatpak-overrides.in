@@ -1,5 +1,5 @@
 [Context]
-filesystems=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@BRANCH@/active/files:ro;~/.icons:ro;
+filesystems=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@BRANCH@/active/files:ro;~/.icons;
 
 [Session Bus Policy]
 com.endlessm.HackSoundServer=talk

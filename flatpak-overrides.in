@@ -1,8 +1,8 @@
 [Context]
-filesystems=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@BRANCH@/active/files:ro;~/.icons;
+filesystems=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@FLATPAK_BRANCH@/active/files:ro;~/.icons;
 
 [Session Bus Policy]
 com.endlessm.HackSoundServer=talk
 
 [Environment]
-GTK3_MODULES=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@BRANCH@/active/files/lib/libclippy-module.so
+GTK3_MODULES=/var/lib/flatpak/runtime/com.endlessm.Clippy.Extension/@FLATPAK_ARCH@/@FLATPAK_BRANCH@/active/files/lib/libclippy-module.so

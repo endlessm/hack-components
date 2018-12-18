@@ -3,7 +3,7 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Desktop-BGs-Beta-Binary.png</name>
-    <filename>@BACKGROUNDSDIR@/Desktop-BGs-Beta-Binary.png</filename>
+    <filename>../backgrounds/Desktop-BGs-Beta-Binary.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -11,7 +11,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>Desktop-BGs-Beta-Cat_Grid.png</name>
-    <filename>@BACKGROUNDSDIR@/Desktop-BGs-Beta-Cat_Grid.png</filename>
+    <filename>../backgrounds/Desktop-BGs-Beta-Cat_Grid.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -19,7 +19,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>Desktop-BGs-Beta-Pop_Art.png</name>
-    <filename>@BACKGROUNDSDIR@/Desktop-BGs-Beta-Pop_Art.png</filename>
+    <filename>../backgrounds/Desktop-BGs-Beta-Pop_Art.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -27,7 +27,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>Desktop-BGs-Beta-Sketch_Blue.png</name>
-    <filename>@BACKGROUNDSDIR@/Desktop-BGs-Beta-Sketch_Blue.png</filename>
+    <filename>../backgrounds/Desktop-BGs-Beta-Sketch_Blue.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -35,7 +35,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>Desktop-BGs-Beta-Sketch_Green.png</name>
-    <filename>@BACKGROUNDSDIR@/Desktop-BGs-Beta-Sketch_Green.png</filename>
+    <filename>../backgrounds/Desktop-BGs-Beta-Sketch_Green.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -43,7 +43,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>hack_colors_05_blurred-FBE.png</name>
-    <filename>@BACKGROUNDSDIR@/hack_colors_05_blurred-FBE.png</filename>
+    <filename>../backgrounds/hack_colors_05_blurred-FBE.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -51,7 +51,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>hack_colors_05.png</name>
-    <filename>@BACKGROUNDSDIR@/hack_colors_05.png</filename>
+    <filename>../backgrounds/hack_colors_05.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -59,7 +59,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>riley_colors_02b_blurred-FBE.png</name>
-    <filename>@BACKGROUNDSDIR@/riley_colors_02b_blurred-FBE.png</filename>
+    <filename>../backgrounds/riley_colors_02b_blurred-FBE.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -67,7 +67,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>riley_colors_02b.png</name>
-    <filename>@BACKGROUNDSDIR@/riley_colors_02b.png</filename>
+    <filename>../backgrounds/riley_colors_02b.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>
@@ -75,7 +75,7 @@
   </wallpaper>
   <wallpaper deleted="false">
     <name>saniel_colors_02b.png</name>
-    <filename>@BACKGROUNDSDIR@/saniel_colors_02b.png</filename>
+    <filename>../backgrounds/saniel_colors_02b.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#3465a4</pcolor>

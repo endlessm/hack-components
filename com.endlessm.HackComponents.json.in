@@ -21,26 +21,14 @@
     "modules": [
         {
             "name": "hack-components",
-            "buildsystem": "simple",
+            "buildsystem": "meson",
+            "config-opts": ["-Dflatpak_branch=@BRANCH@"],
             "sources": [
                 {
                     "type": "git",
                     "path": ".",
                     "branch": "@GIT_CLONE_BRANCH@"
-                },
-                {
-                    "type": "file",
-                    "dest-filename": "subst",
-                    "path": "subst-script"
                 }
-            ],
-            "build-commands": [
-                "mkdir -p /app/clippy",
-                "mkdir -p /app/hack-avatar-faces",
-                "mkdir -p /app/share/flatpak-overrides",
-                "install -D -m644 -t /app/share/hack-components hack-data.ini",
-                "chmod +x ./subst",
-                "BRANCH=@BRANCH@ ./subst flatpak-overrides.in /app/share/flatpak-overrides/global"
             ]
         }
     ]

@@ -29,6 +29,8 @@ install_subdir(
     strip_directory: true
 )
 
+subdir('data')
+
 meson.add_install_script(
     'mkdir', '-p',
     join_paths(get_option('prefix'), 'clippy'),
